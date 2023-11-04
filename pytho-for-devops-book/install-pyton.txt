@@ -1,0 +1,19 @@
+#install python on the debain distros like ubuntu and debain
+    $sudo add-apt-repository ppa:deadsnakes/ppa
+    $sudo apt-get update
+
+#Install python/pyenv on unix based os like FreeBSD
+    $git clone https://github.com/pyenv/pyenv-installer
+    $ cd pyenv-installer
+    $ bash pyenv-installer
+after intalling we need to set the path.
+    $vi .bash_profile
+     export PATH="~/.pyenv/bin:$PATH"
+     eval "$(pyenv init -)"
+     eval "$(pyenv virtualenv-init -)
+     $source .bash_profile
+    $pyenv install local 3.7.0
+
+    
+
+

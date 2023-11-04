@@ -1,10 +1,10 @@
 class Test:
-    a=10
+    a=10                            #static variable which can define inside the class and outside of the method
     def __init__(self):
         print(self.a)
         print(Test.a)
 
-    def m1(self):
+    def m1(self):                   #instance/normal method 
           print(self.a)
           print(Test.a)
 

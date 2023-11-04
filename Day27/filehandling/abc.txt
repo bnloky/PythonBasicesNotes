@@ -1,0 +1,4 @@
+welcome to the new file 
+this file is created by loky 
+this file existing file opened for writting a data into it
+one more line added to the file

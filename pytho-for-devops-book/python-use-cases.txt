@@ -1,0 +1,31 @@
+Generic Python DevOps Use Cases
+Python Script to query databases
+Python script to execute a shell script and shell commands.
+Querying Splunk logs for specific alerting
+Python script to create Kafka Topics
+Python script to take backups.
+Python script for Kubernetes init containers to fetch secrets from the vault or other secrets management solutions.
+Python script to fetch IPs of live servers in an autoscaling group.
+Python AWS Lambda function to stop running instances on weekends.
+Python script for ETL jobs.
+Find SSL expiry date using python
+Develop custom CLI applications using Python
+CRUD operations using Python for databases.
+Custom scripts while using configuration management tools.
+Cloud-Specific Python Use Cases
+When working on cloud environments, you might need custom automation scripts as part of Infrastructure as code implementations. Let’s take a look at some real-world cloud-specific Python use cases.
+
+Provision AWS resources using Python AWS CDK.
+Use Boto3 modules to manage AWS services.
+Python Boto3 program to manage AWS ec2 instances.
+Python Boto3 program to manage AWS S3 Storage.
+Python Boto3 program to retrieve secrets from parameter store and secrets manager.
+
+#Kubernetes-Specific Python Use Cases
+Many devops engineers had this question of how to leverage Python knowledge with Kubernetes.
+Following are the tasks you can do with Python for while learning Kubernetes
+Start by creating Python programs to interact with Kubernetes APIs using various authentication mechanisms. (Token, Certificates, etc)
+Try running custom Python scripts with init containers to modify a file that a container requires during runtime.
+Write a custom webhook using Python Flask API for Kubernetes Validating and Mutating Admission controllers.
+Consider writing a Kubernetes operator in Python using the Kopf framework. An example use case for a custom Kubernetes operator could be to automate the backup of etcd to Amazon S3. You can use the kopf python framework\\
+
